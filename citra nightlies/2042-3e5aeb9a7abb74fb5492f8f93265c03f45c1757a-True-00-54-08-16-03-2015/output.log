@@ -1,0 +1,860 @@
+Cloning into 'citra'...
+Submodule 'externals/boost' (https://github.com/citra-emu/ext-boost.git) registered for path 'externals/boost'
+Submodule 'externals/inih/inih' (https://github.com/svn2github/inih) registered for path 'externals/inih/inih'
+Submodule 'externals/nihstro' (https://github.com/neobrain/nihstro.git) registered for path 'externals/nihstro'
+Cloning into 'externals/boost'...
+Submodule path 'externals/boost': checked out '728a4d7d1c8b28355544ae829df9c4b5f28373c5'
+Cloning into 'externals/inih/inih'...
+Submodule path 'externals/inih/inih': checked out '603729dec89aaca42d7bd08f08bc333165b7d5d1'
+Cloning into 'externals/nihstro'...
+Submodule path 'externals/nihstro': checked out '4a78588b308564f7ebae193e0ae00d9a0d5741d5'
+-- The C compiler identification is MSVC 18.0.31101.0
+-- The CXX compiler identification is MSVC 18.0.31101.0
+-- Check for working C compiler using: Visual Studio 12 2013
+-- Check for working C compiler using: Visual Studio 12 2013 -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler using: Visual Studio 12 2013
+-- Check for working CXX compiler using: Visual Studio 12 2013 -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Cache compiler flags ignored, please edit CMakeLists.txt to change the flags.
+-- libpng not found. Some debugging features have been disabled.
+-- Could NOT find Boost
+-- Boost 1.57.0 or newer not found, falling back to externals
+-- Found OpenGL: opengl32  
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    QT_QMAKE_EXECUTABLE
+
+
+-- Build files have been written to: D:/Users/pbsds/Desktop/Programming/python/small projects/citra autobuilder/workspace/build
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34014]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Building the projects in this solution one at a time. To enable parallel build, please add the "/m" switch.
+Build started 3/16/2015 00:53:09.
+Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\citra.sln" on node 1 (citra target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Release|Win32".
+ValidateProjects:
+  The project "ALL_BUILD" is not selected for building in solution configuration "Release|Win32".
+Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\citra.sln" (1) is building "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra\citra.vcxproj.metaproj" (2) on node 1 (default targets).
+Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra\citra.vcxproj.metaproj" (2) is building "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\ZERO_CHECK.vcxproj" (3) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Win32\Release\ZERO_CHECK\".
+  Creating directory "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\Release\".
+  Creating directory "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+InitializeBuildStatus:
+  Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  Checking Build System
+  CMake does not need to re-run because D:/Users/pbsds/Desktop/Programming/python/small projects/citra autobuilder/workspace/build/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because D:/Users/pbsds/Desktop/Programming/python/small projects/citra autobuilder/workspace/build/externals/inih/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because D:/Users/pbsds/Desktop/Programming/python/small projects/citra autobuilder/workspace/build/externals/qhexedit/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because D:/Users/pbsds/Desktop/Programming/python/small projects/citra autobuilder/workspace/build/src/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because D:/Users/pbsds/Desktop/Programming/python/small projects/citra autobuilder/workspace/build/src/common/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because D:/Users/pbsds/Desktop/Programming/python/small projects/citra autobuilder/workspace/build/src/core/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because D:/Users/pbsds/Desktop/Programming/python/small projects/citra autobuilder/workspace/build/src/video_core/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because D:/Users/pbsds/Desktop/Programming/python/small projects/citra autobuilder/workspace/build/src/citra/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because D:/Users/pbsds/Desktop/Programming/python/small projects/citra autobuilder/workspace/build/src/citra_qt/CMakeFiles/generate.stamp is up-to-date.
+FinalizeBuildStatus:
+  Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+  Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+Done Building Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\ZERO_CHECK.vcxproj" (default targets).
+Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra\citra.vcxproj.metaproj" (2) is building "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\common\common.vcxproj.metaproj" (4) on node 1 (default targets).
+Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\common\common.vcxproj.metaproj" (4) is building "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\common\common.vcxproj" (5) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "common.dir\Release\".
+  Creating directory "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\common\Release\".
+  Creating directory "common.dir\Release\common.tlog\".
+InitializeBuildStatus:
+  Creating "common.dir\Release\common.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  Building Custom Rule D:/Users/pbsds/Desktop/Programming/python/small projects/citra autobuilder/workspace/citra/src/common/CMakeLists.txt
+  CMake does not need to re-run because D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\common\CMakeFiles\generate.stamp is up-to-date.
+ClCompile:
+  D:\Programs x32\Microsoft Visual Studio 12.0 2013\VC\bin\CL.exe /c /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\boost" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\glfw-3.0.4.bin\include" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\inih" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\nihstro\include" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\qhexedit" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\." /Zi /nologo /W3 /WX- /MP /Ox /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D SINGLETHREADED /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"common.dir\Release\\" /Fd"common.dir\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\common\break_points.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\common\emu_window.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\common\file_util.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\common\hash.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\common\key_map.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\common\logging\filter.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\common\logging\text_formatter.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\common\logging\backend.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\common\math_util.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\common\mem_arena.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\common\memory_util.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\common\misc.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\common\profiler.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\common\scm_rev.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\common\string_util.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\common\symbols.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\common\thread.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\common\timer.cpp"
+  break_points.cpp
+  emu_window.cpp
+  file_util.cpp
+  hash.cpp
+  key_map.cpp
+  filter.cpp
+  text_formatter.cpp
+  backend.cpp
+  math_util.cpp
+  mem_arena.cpp
+  memory_util.cpp
+  misc.cpp
+  profiler.cpp
+  scm_rev.cpp
+  string_util.cpp
+  symbols.cpp
+  thread.cpp
+  timer.cpp
+Lib:
+  D:\Programs x32\Microsoft Visual Studio 12.0 2013\VC\bin\Lib.exe /OUT:"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\common\Release\common.lib" /NOLOGO common.dir\Release\break_points.obj
+  common.dir\Release\emu_window.obj
+  common.dir\Release\file_util.obj
+  common.dir\Release\hash.obj
+  common.dir\Release\key_map.obj
+  common.dir\Release\filter.obj
+  common.dir\Release\text_formatter.obj
+  common.dir\Release\backend.obj
+  common.dir\Release\math_util.obj
+  common.dir\Release\mem_arena.obj
+  common.dir\Release\memory_util.obj
+  common.dir\Release\misc.obj
+  common.dir\Release\profiler.obj
+  common.dir\Release\scm_rev.obj
+  common.dir\Release\string_util.obj
+  common.dir\Release\symbols.obj
+  common.dir\Release\thread.obj
+  common.dir\Release\timer.obj
+  common.vcxproj -> D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\common\Release\common.lib
+FinalizeBuildStatus:
+  Deleting file "common.dir\Release\common.tlog\unsuccessfulbuild".
+  Touching "common.dir\Release\common.tlog\common.lastbuildstate".
+Done Building Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\common\common.vcxproj" (default targets).
+Done Building Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\common\common.vcxproj.metaproj" (default targets).
+Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra\citra.vcxproj.metaproj" (2) is building "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj.metaproj" (6) on node 1 (default targets).
+Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj.metaproj" (6) is building "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj" (7) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "core.dir\Release\".
+  Creating directory "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\Release\".
+  Creating directory "core.dir\Release\core.tlog\".
+InitializeBuildStatus:
+  Creating "core.dir\Release\core.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  Building Custom Rule D:/Users/pbsds/Desktop/Programming/python/small projects/citra autobuilder/workspace/citra/src/core/CMakeLists.txt
+  CMake does not need to re-run because D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\CMakeFiles\generate.stamp is up-to-date.
+ClCompile:
+  D:\Programs x32\Microsoft Visual Studio 12.0 2013\VC\bin\CL.exe /c /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\boost" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\glfw-3.0.4.bin\include" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\inih" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\nihstro\include" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\qhexedit" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\." /Zi /nologo /W3 /WX- /MP /Ox /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D SINGLETHREADED /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"core.dir\Release\\" /Fd"core.dir\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\arm\disassembler\arm_disasm.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\arm\disassembler\load_symbol_map.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\arm\dyncom\arm_dyncom.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\arm\dyncom\arm_dyncom_dec.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\arm\dyncom\arm_dyncom_interpreter.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\arm\dyncom\arm_dyncom_run.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\arm\dyncom\arm_dyncom_thumb.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\arm\interpreter\armcopro.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\arm\interpreter\arminit.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\arm\interpreter\armsupp.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\arm\skyeye_common\vfp\vfp.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\arm\skyeye_common\vfp\vfpdouble.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\arm\skyeye_common\vfp\vfpinstr.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\arm\skyeye_common\vfp\vfpsingle.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\file_sys\archive_extsavedata.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\file_sys\archive_romfs.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\file_sys\archive_savedata.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\file_sys\archive_savedatacheck.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\file_sys\archive_sdmc.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\file_sys\archive_systemsavedata.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\file_sys\disk_archive.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\file_sys\ivfc_archive.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\kernel\address_arbiter.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\kernel\event.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\kernel\kernel.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\kernel\mutex.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\kernel\semaphore.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\kernel\session.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\kernel\shared_memory.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\kernel\timer.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\kernel\thread.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\ac_u.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\act_u.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\am_app.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\am_net.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\am_sys.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\apt\apt.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\apt\apt_a.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\apt\apt_s.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\apt\apt_u.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\boss_p.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\boss_u.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\cam_u.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\cecd_s.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\cecd_u.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\cfg\cfg.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\cfg\cfg_i.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\cfg\cfg_s.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\cfg\cfg_u.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\csnd_snd.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\dsp_dsp.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\err_f.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\frd_a.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\frd_u.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\fs\archive.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\fs\fs_user.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\gsp_gpu.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\hid\hid.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\hid\hid_user.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\hid\hid_spvr.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\gsp_lcd.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\http_c.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\ir_rst.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\ir_u.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\ldr_ro.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\mic_u.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\ndm_u.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\news_s.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\news_u.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\nim_aoc.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\ns_s.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\nwm_uds.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\pm_app.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\ptm\ptm.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\ptm\ptm_play.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\ptm\ptm_u.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\ptm\ptm_sysm.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\service.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\soc_u.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\srv.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\ssl_c.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\y2r_u.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\config_mem.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\hle.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\shared_page.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\svc.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hw\gpu.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hw\hw.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hw\lcd.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\loader\elf.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\loader\loader.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\loader\ncch.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\loader\3dsx.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\core.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\core_timing.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\mem_map.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\mem_map_funcs.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\settings.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\system.cpp"
+  arm_disasm.cpp
+  load_symbol_map.cpp
+  arm_dyncom.cpp
+  arm_dyncom_dec.cpp
+  arm_dyncom_interpreter.cpp
+  arm_dyncom_run.cpp
+  arm_dyncom_thumb.cpp
+  armcopro.cpp
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core/arm/dyncom/arm_dyncom_dec.h(7): warning C4005: 'BITS' : macro redefinition (D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\arm\dyncom\arm_dyncom_dec.cpp) [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj]
+          D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core/arm/skyeye_common/armdefs.h(25) : see previous definition of 'BITS'
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core/arm/dyncom/arm_dyncom_dec.h(8): warning C4005: 'BIT' : macro redefinition (D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\arm\dyncom\arm_dyncom_dec.cpp) [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj]
+          D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core/arm/skyeye_common/armdefs.h(26) : see previous definition of 'BIT'
+  arminit.cpp
+  armsupp.cpp
+  vfp.cpp
+  vfpdouble.cpp
+  vfpinstr.cpp
+  vfpsingle.cpp
+  archive_extsavedata.cpp
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\arm\skyeye_common\vfp\vfpsingle.cpp(391): warning C4804: '<<=' : unsafe use of type 'bool' in operation [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj]
+  archive_romfs.cpp
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\arm\skyeye_common\vfp\vfpdouble.cpp(533): warning C4146: unary minus operator applied to unsigned type, result still unsigned [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\arm\skyeye_common\vfp\vfpdouble.cpp(671): warning C4146: unary minus operator applied to unsigned type, result still unsigned [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\arm\skyeye_common\vfp\vfpdouble.cpp(819): warning C4146: unary minus operator applied to unsigned type, result still unsigned [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj]
+  archive_savedata.cpp
+  archive_savedatacheck.cpp
+  archive_sdmc.cpp
+  archive_systemsavedata.cpp
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\arm\dyncom\arm_dyncom_interpreter.cpp(656): warning C4200: nonstandard extension used : zero-sized array in struct/union [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj]
+          Cannot generate copy-ctor or copy-assignment operator when UDT contains a zero-sized array
+  disk_archive.cpp
+  ivfc_archive.cpp
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\file_sys\archive_savedatacheck.cpp(40): warning C4244: 'argument' : conversion from 'u64' to 'size_t', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj]
+  address_arbiter.cpp
+D:\Programs x32\Microsoft Visual Studio 12.0 2013\VC\include\memory(932): warning C4244: 'argument' : conversion from 'u64' to 'unsigned int', possible loss of data (D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\file_sys\archive_savedatacheck.cpp) [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj]
+          D:\Programs x32\Microsoft Visual Studio 12.0 2013\VC\include\memory(1003) : see reference to function template instantiation 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<u64&>(u64 &)' being compiled
+          with
+          [
+              _Ty=std::vector<u8,std::allocator<u8>>
+          ]
+          D:\Programs x32\Microsoft Visual Studio 12.0 2013\VC\include\memory(1003) : see reference to function template instantiation 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<u64&>(u64 &)' being compiled
+          with
+          [
+              _Ty=std::vector<u8,std::allocator<u8>>
+          ]
+          D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\file_sys\archive_savedatacheck.cpp(39) : see reference to function template instantiation 'std::shared_ptr<std::vector<u8,std::allocator<_Ty>>> std::make_shared<std::vector<_Ty,std::allocator<_Ty>>,u64&>(u64 &)' being compiled
+          with
+          [
+              _Ty=u8
+          ]
+  event.cpp
+  kernel.cpp
+  mutex.cpp
+  semaphore.cpp
+  session.cpp
+  shared_memory.cpp
+  timer.cpp
+  thread.cpp
+  ac_u.cpp
+  act_u.cpp
+  am_app.cpp
+  am_net.cpp
+  am_sys.cpp
+  apt.cpp
+  apt_a.cpp
+  apt_s.cpp
+  apt_u.cpp
+  boss_p.cpp
+  boss_u.cpp
+  cam_u.cpp
+  cecd_s.cpp
+  cecd_u.cpp
+  cfg.cpp
+  cfg_i.cpp
+  cfg_s.cpp
+  cfg_u.cpp
+  csnd_snd.cpp
+  dsp_dsp.cpp
+  err_f.cpp
+  frd_a.cpp
+  frd_u.cpp
+  archive.cpp
+  fs_user.cpp
+  gsp_gpu.cpp
+  hid.cpp
+  hid_user.cpp
+  hid_spvr.cpp
+  gsp_lcd.cpp
+  http_c.cpp
+  ir_rst.cpp
+  ir_u.cpp
+  ldr_ro.cpp
+  mic_u.cpp
+  ndm_u.cpp
+  news_s.cpp
+  news_u.cpp
+  nim_aoc.cpp
+  ns_s.cpp
+  nwm_uds.cpp
+  pm_app.cpp
+  ptm.cpp
+  ptm_play.cpp
+  ptm_u.cpp
+  ptm_sysm.cpp
+  service.cpp
+  soc_u.cpp
+  srv.cpp
+  ssl_c.cpp
+  y2r_u.cpp
+  config_mem.cpp
+  hle.cpp
+  shared_page.cpp
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\soc_u.cpp(471): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj]
+          C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(2238) : see declaration of 'gethostbyname'
+  svc.cpp
+  gpu.cpp
+  hw.cpp
+  lcd.cpp
+  elf.cpp
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hw\hw.cpp(20): warning C4244: 'argument' : conversion from 'u64' to 'u32', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj]
+          D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hw\hw.cpp(43) : see reference to function template instantiation 'void HW::Read<u64>(u64 &,const u32)' being compiled
+  loader.cpp
+  ncch.cpp
+  3dsx.cpp
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core/math.h(93): warning C4146: unary minus operator applied to unsigned type, result still unsigned (D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hw\gpu.cpp) [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj]
+          D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core/color.h(126) : see reference to class template instantiation 'Math::Vec2<u32>' being compiled
+  core.cpp
+  core_timing.cpp
+  mem_map.cpp
+d:\users\pbsds\desktop\programming\python\small projects\citra autobuilder\workspace\citra\src\core\hw\gpu.h(74): warning C4715: 'GPU::Regs::BytesPerPixel' : not all control paths return a value [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj]
+  mem_map_funcs.cpp
+  settings.cpp
+  system.cpp
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\core_timing.cpp(495): warning C4244: 'argument' : conversion from 's64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj]
+Lib:
+  D:\Programs x32\Microsoft Visual Studio 12.0 2013\VC\bin\Lib.exe /OUT:"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\Release\core.lib" /NOLOGO core.dir\Release\arm_disasm.obj
+  core.dir\Release\load_symbol_map.obj
+  core.dir\Release\arm_dyncom.obj
+  core.dir\Release\arm_dyncom_dec.obj
+  core.dir\Release\arm_dyncom_interpreter.obj
+  core.dir\Release\arm_dyncom_run.obj
+  core.dir\Release\arm_dyncom_thumb.obj
+  core.dir\Release\armcopro.obj
+  core.dir\Release\arminit.obj
+  core.dir\Release\armsupp.obj
+  core.dir\Release\vfp.obj
+  core.dir\Release\vfpdouble.obj
+  core.dir\Release\vfpinstr.obj
+  core.dir\Release\vfpsingle.obj
+  core.dir\Release\archive_extsavedata.obj
+  core.dir\Release\archive_romfs.obj
+  core.dir\Release\archive_savedata.obj
+  core.dir\Release\archive_savedatacheck.obj
+  core.dir\Release\archive_sdmc.obj
+  core.dir\Release\archive_systemsavedata.obj
+  core.dir\Release\disk_archive.obj
+  core.dir\Release\ivfc_archive.obj
+  core.dir\Release\address_arbiter.obj
+  core.dir\Release\event.obj
+  core.dir\Release\kernel.obj
+  core.dir\Release\mutex.obj
+  core.dir\Release\semaphore.obj
+  core.dir\Release\session.obj
+  core.dir\Release\shared_memory.obj
+  core.dir\Release\timer.obj
+  core.dir\Release\thread.obj
+  core.dir\Release\ac_u.obj
+  core.dir\Release\act_u.obj
+  core.dir\Release\am_app.obj
+  core.dir\Release\am_net.obj
+  core.dir\Release\am_sys.obj
+  core.dir\Release\apt.obj
+  core.dir\Release\apt_a.obj
+  core.dir\Release\apt_s.obj
+  core.dir\Release\apt_u.obj
+  core.dir\Release\boss_p.obj
+  core.dir\Release\boss_u.obj
+  core.dir\Release\cam_u.obj
+  core.dir\Release\cecd_s.obj
+  core.dir\Release\cecd_u.obj
+  core.dir\Release\cfg.obj
+  core.dir\Release\cfg_i.obj
+  core.dir\Release\cfg_s.obj
+  core.dir\Release\cfg_u.obj
+  core.dir\Release\csnd_snd.obj
+  core.dir\Release\dsp_dsp.obj
+  core.dir\Release\err_f.obj
+  core.dir\Release\frd_a.obj
+  core.dir\Release\frd_u.obj
+  core.dir\Release\archive.obj
+  core.dir\Release\fs_user.obj
+  core.dir\Release\gsp_gpu.obj
+  core.dir\Release\hid.obj
+  core.dir\Release\hid_user.obj
+  core.dir\Release\hid_spvr.obj
+  core.dir\Release\gsp_lcd.obj
+  core.dir\Release\http_c.obj
+  core.dir\Release\ir_rst.obj
+  core.dir\Release\ir_u.obj
+  core.dir\Release\ldr_ro.obj
+  core.dir\Release\mic_u.obj
+  core.dir\Release\ndm_u.obj
+  core.dir\Release\news_s.obj
+  core.dir\Release\news_u.obj
+  core.dir\Release\nim_aoc.obj
+  core.dir\Release\ns_s.obj
+  core.dir\Release\nwm_uds.obj
+  core.dir\Release\pm_app.obj
+  core.dir\Release\ptm.obj
+  core.dir\Release\ptm_play.obj
+  core.dir\Release\ptm_u.obj
+  core.dir\Release\ptm_sysm.obj
+  core.dir\Release\service.obj
+  core.dir\Release\soc_u.obj
+  core.dir\Release\srv.obj
+  core.dir\Release\ssl_c.obj
+  core.dir\Release\y2r_u.obj
+  core.dir\Release\config_mem.obj
+  core.dir\Release\hle.obj
+  core.dir\Release\shared_page.obj
+  core.dir\Release\svc.obj
+  core.dir\Release\gpu.obj
+  core.dir\Release\hw.obj
+  core.dir\Release\lcd.obj
+  core.dir\Release\elf.obj
+  core.dir\Release\loader.obj
+  core.dir\Release\ncch.obj
+  core.dir\Release\3dsx.obj
+  core.dir\Release\core.obj
+  core.dir\Release\core_timing.obj
+  core.dir\Release\mem_map.obj
+  core.dir\Release\mem_map_funcs.obj
+  core.dir\Release\settings.obj
+  core.dir\Release\system.obj
+  core.vcxproj -> D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\Release\core.lib
+FinalizeBuildStatus:
+  Deleting file "core.dir\Release\core.tlog\unsuccessfulbuild".
+  Touching "core.dir\Release\core.tlog\core.lastbuildstate".
+Done Building Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj" (default targets).
+Done Building Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj.metaproj" (default targets).
+Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra\citra.vcxproj.metaproj" (2) is building "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\externals\inih\inih.vcxproj.metaproj" (8) on node 1 (default targets).
+Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\externals\inih\inih.vcxproj.metaproj" (8) is building "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\externals\inih\inih.vcxproj" (9) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "inih.dir\Release\".
+  Creating directory "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\externals\inih\Release\".
+  Creating directory "inih.dir\Release\inih.tlog\".
+InitializeBuildStatus:
+  Creating "inih.dir\Release\inih.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  Building Custom Rule D:/Users/pbsds/Desktop/Programming/python/small projects/citra autobuilder/workspace/citra/externals/inih/CMakeLists.txt
+  CMake does not need to re-run because D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\externals\inih\CMakeFiles\generate.stamp is up-to-date.
+ClCompile:
+  D:\Programs x32\Microsoft Visual Studio 12.0 2013\VC\bin\CL.exe /c /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\boost" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\glfw-3.0.4.bin\include" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\inih" /Zi /nologo /W3 /WX- /MP /Ox /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D SINGLETHREADED /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"inih.dir\Release\\" /Fd"inih.dir\Release\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\inih\inih\ini.c"
+  ini.c
+  D:\Programs x32\Microsoft Visual Studio 12.0 2013\VC\bin\CL.exe /c /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\boost" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\glfw-3.0.4.bin\include" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\inih" /Zi /nologo /W3 /WX- /MP /Ox /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D SINGLETHREADED /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"inih.dir\Release\\" /Fd"inih.dir\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\inih\inih\cpp\INIReader.cpp"
+  INIReader.cpp
+Lib:
+  D:\Programs x32\Microsoft Visual Studio 12.0 2013\VC\bin\Lib.exe /OUT:"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\externals\inih\Release\inih.lib" /NOLOGO inih.dir\Release\ini.obj
+  inih.dir\Release\INIReader.obj
+  inih.vcxproj -> D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\externals\inih\Release\inih.lib
+FinalizeBuildStatus:
+  Deleting file "inih.dir\Release\inih.tlog\unsuccessfulbuild".
+  Touching "inih.dir\Release\inih.tlog\inih.lastbuildstate".
+Done Building Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\externals\inih\inih.vcxproj" (default targets).
+Done Building Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\externals\inih\inih.vcxproj.metaproj" (default targets).
+Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra\citra.vcxproj.metaproj" (2) is building "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj.metaproj" (10) on node 1 (default targets).
+Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj.metaproj" (10) is building "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj" (11) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "video_core.dir\Release\".
+  Creating directory "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\Release\".
+  Creating directory "video_core.dir\Release\video_core.tlog\".
+InitializeBuildStatus:
+  Creating "video_core.dir\Release\video_core.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  Building Custom Rule D:/Users/pbsds/Desktop/Programming/python/small projects/citra autobuilder/workspace/citra/src/video_core/CMakeLists.txt
+  CMake does not need to re-run because D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\CMakeFiles\generate.stamp is up-to-date.
+ClCompile:
+  D:\Programs x32\Microsoft Visual Studio 12.0 2013\VC\bin\CL.exe /c /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\boost" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\glfw-3.0.4.bin\include" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\inih" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\nihstro\include" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\qhexedit" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\." /Zi /nologo /W3 /WX- /MP /Ox /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D SINGLETHREADED /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"video_core.dir\Release\\" /Fd"video_core.dir\Release\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\renderer_opengl\generated\gl_3_2_core.c"
+  gl_3_2_core.c
+  D:\Programs x32\Microsoft Visual Studio 12.0 2013\VC\bin\CL.exe /c /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\boost" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\glfw-3.0.4.bin\include" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\inih" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\nihstro\include" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\qhexedit" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\." /Zi /nologo /W3 /WX- /MP /Ox /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D SINGLETHREADED /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"video_core.dir\Release\\" /Fd"video_core.dir\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\renderer_opengl\renderer_opengl.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\renderer_opengl\gl_shader_util.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\clipper.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\command_processor.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\primitive_assembly.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\rasterizer.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\utils.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\video_core.cpp"
+  renderer_opengl.cpp
+  gl_shader_util.cpp
+  debug_utils.cpp
+  clipper.cpp
+  command_processor.cpp
+  primitive_assembly.cpp
+  rasterizer.cpp
+  utils.cpp
+d:\users\pbsds\desktop\programming\python\small projects\citra autobuilder\workspace\citra\externals\nihstro\include\nihstro\shader_bytecode.h(674): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning) (D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp) [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core/math.h(93): warning C4146: unary minus operator applied to unsigned type, result still unsigned (D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp) [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+          D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core/color.h(126) : see reference to class template instantiation 'Math::Vec2<u32>' being compiled
+  vertex_shader.cpp
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core/math.h(93): warning C4146: unary minus operator applied to unsigned type, result still unsigned (D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\rasterizer.cpp) [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+          d:\users\pbsds\desktop\programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\color.h(126) : see reference to class template instantiation 'Math::Vec2<u32>' being compiled
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\rasterizer.cpp(346): warning C4018: '>=' : signed/unsigned mismatch [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  video_core.cpp
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp(484): warning C4244: '=' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp(485): warning C4244: '=' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp(486): warning C4244: '=' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp(488): warning C4244: '+=' : conversion from 's64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp(489): warning C4244: '+=' : conversion from 's64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp(490): warning C4244: '+=' : conversion from 's64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp(497): warning C4244: 'argument' : conversion from 'u64' to 'u8', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp(498): warning C4244: 'argument' : conversion from 'u64' to 'u8', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp(499): warning C4244: 'argument' : conversion from 'u64' to 'u8', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp(501): warning C4244: 'argument' : conversion from 'u64' to 'u8', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp(502): warning C4244: 'argument' : conversion from 'u64' to 'u8', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp(503): warning C4244: 'argument' : conversion from 'u64' to 'u8', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp(508): warning C4244: 'initializing' : conversion from 'u64' to 'unsigned int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\clipper.cpp(96): warning C4305: 'argument' : truncation from 'double' to 'float' [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+d:\users\pbsds\desktop\programming\python\small projects\citra autobuilder\workspace\citra\src\core\hw\gpu.h(74): warning C4715: 'GPU::Regs::BytesPerPixel' : not all control paths return a value [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+d:\users\pbsds\desktop\programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\pica.h(441): warning C4715: 'Pica::Regs::BytesPerDepthPixel' : not all control paths return a value [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+d:\users\pbsds\desktop\programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\rasterizer.cpp(474): warning C4715: '<lambda_66bd2cbb558d25be5c5cf46ea9fac396>::operator()' : not all control paths return a value [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+d:\users\pbsds\desktop\programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\rasterizer.cpp(763): warning C4715: '<lambda_9785ccaa432799224290dc37646d51d1>::operator()' : not all control paths return a value [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+d:\users\pbsds\desktop\programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\rasterizer.cpp(730): warning C4715: '<lambda_0d0cbdd9904c0b0604d4eb778b191f96>::operator()' : not all control paths return a value [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+d:\users\pbsds\desktop\programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\rasterizer.cpp(446): warning C4715: '<lambda_ec4da4bd1a86fa264e9afe0de5e1b1e6>::operator()' : not all control paths return a value [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\nihstro\include\nihstro/shader_bytecode.h(674): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning) (D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp) [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(573): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(574): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(575): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(576): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(577): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(578): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(579): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(580): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(581): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(582): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(583): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(584): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(585): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(586): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(587): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(588): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+d:\users\pbsds\desktop\programming\python\small projects\citra autobuilder\workspace\citra\src\core\hw\gpu.h(74): warning C4715: 'GPU::Regs::BytesPerPixel' : not all control paths return a value [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+d:\users\pbsds\desktop\programming\python\small projects\citra autobuilder\workspace\citra\externals\nihstro\include\nihstro\shader_bytecode.h(89): warning C4715: 'nihstro::SourceRegister::GetIndex' : not all control paths return a value [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+d:\users\pbsds\desktop\programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(449): warning C4715: '<lambda_e34b2f9a68a3f36f2454dae8bbde5361>::operator()' : not all control paths return a value [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+Lib:
+  D:\Programs x32\Microsoft Visual Studio 12.0 2013\VC\bin\Lib.exe /OUT:"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\Release\video_core.lib" /NOLOGO video_core.dir\Release\gl_3_2_core.obj
+  video_core.dir\Release\renderer_opengl.obj
+  video_core.dir\Release\gl_shader_util.obj
+  video_core.dir\Release\debug_utils.obj
+  video_core.dir\Release\clipper.obj
+  video_core.dir\Release\command_processor.obj
+  video_core.dir\Release\primitive_assembly.obj
+  video_core.dir\Release\rasterizer.obj
+  video_core.dir\Release\utils.obj
+  video_core.dir\Release\vertex_shader.obj
+  video_core.dir\Release\video_core.obj
+  video_core.vcxproj -> D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\Release\video_core.lib
+FinalizeBuildStatus:
+  Deleting file "video_core.dir\Release\video_core.tlog\unsuccessfulbuild".
+  Touching "video_core.dir\Release\video_core.tlog\video_core.lastbuildstate".
+Done Building Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj" (default targets).
+Done Building Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj.metaproj" (default targets).
+Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra\citra.vcxproj.metaproj" (2) is building "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra\citra.vcxproj" (12) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "citra.dir\Release\".
+  Creating directory "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\bin\Release\".
+  Creating directory "citra.dir\Release\citra.tlog\".
+InitializeBuildStatus:
+  Creating "citra.dir\Release\citra.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  Building Custom Rule D:/Users/pbsds/Desktop/Programming/python/small projects/citra autobuilder/workspace/citra/src/citra/CMakeLists.txt
+  CMake does not need to re-run because D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra\CMakeFiles\generate.stamp is up-to-date.
+MakeDirsForCl:
+  Creating directory "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra\Release".
+ClCompile:
+  D:\Programs x32\Microsoft Visual Studio 12.0 2013\VC\bin\CL.exe /c /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\boost" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\glfw-3.0.4.bin\include" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\inih" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\nihstro\include" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\qhexedit" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\." /Zi /nologo /W3 /WX- /MP /Ox /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D SINGLETHREADED /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"citra.dir\Release\\" /Fd"citra.dir\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra\emu_window\emu_window_glfw.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra\config.cpp"
+  emu_window_glfw.cpp
+  config.cpp
+  D:\Programs x32\Microsoft Visual Studio 12.0 2013\VC\bin\CL.exe /c /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\boost" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\glfw-3.0.4.bin\include" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\inih" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\nihstro\include" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\qhexedit" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\." /Zi /nologo /W3 /WX- /MP /Ox /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D SINGLETHREADED /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"citra.dir\Release\/citra.cpp.obj" /Fd"citra.dir\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra\citra.cpp"
+  citra.cpp
+ResourceCompile:
+  C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D SINGLETHREADED /D NDEBUG /D "CMAKE_INTDIR=\\\"Release\\\"" /l"0x0409" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\boost" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\glfw-3.0.4.bin\include" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\inih" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\nihstro\include" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\qhexedit" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\." /nologo /fo"citra.dir\Release\citra.res" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra\citra.rc" 
+Link:
+  D:\Programs x32\Microsoft Visual Studio 12.0 2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\bin\Release\citra.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:/Users/pbsds/Desktop/Programming/python/small projects/citra autobuilder/workspace/citra/externals/glfw-3.0.4.bin/lib-msvc_v120-Win32" /LIBPATH:"D:/Users/pbsds/Desktop/Programming/python/small projects/citra autobuilder/workspace/citra/externals/glfw-3.0.4.bin/lib-msvc_v120-Win32/Release" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\core\Release\core.lib ..\common\Release\common.lib ..\video_core\Release\video_core.lib glfw3.lib opengl32.lib ..\..\externals\inih\Release\inih.lib winmm.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:/Users/pbsds/Desktop/Programming/python/small projects/citra autobuilder/workspace/build/bin/Release/citra.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Users/pbsds/Desktop/Programming/python/small projects/citra autobuilder/workspace/build/src/citra/Release/citra.lib" /MACHINE:X86 /SAFESEH  /machine:X86 citra.dir\Release\citra.res
+  citra.dir\Release\emu_window_glfw.obj
+  citra.dir\Release\config.obj
+  citra.dir\Release\/citra.cpp.obj
+  citra.vcxproj -> D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\bin\Release\citra.exe
+FinalizeBuildStatus:
+  Deleting file "citra.dir\Release\citra.tlog\unsuccessfulbuild".
+  Touching "citra.dir\Release\citra.tlog\citra.lastbuildstate".
+Done Building Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra\citra.vcxproj" (default targets).
+Done Building Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra\citra.vcxproj.metaproj" (default targets).
+Done Building Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\citra.sln" (citra target(s)).
+
+Build succeeded.
+
+"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\citra.sln" (citra target) (1) ->
+"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra\citra.vcxproj.metaproj" (default target) (2) ->
+"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj.metaproj" (default target) (6) ->
+"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj" (default target) (7) ->
+(ClCompile target) -> 
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core/arm/dyncom/arm_dyncom_dec.h(7): warning C4005: 'BITS' : macro redefinition (D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\arm\dyncom\arm_dyncom_dec.cpp) [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core/arm/dyncom/arm_dyncom_dec.h(8): warning C4005: 'BIT' : macro redefinition (D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\arm\dyncom\arm_dyncom_dec.cpp) [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\arm\skyeye_common\vfp\vfpsingle.cpp(391): warning C4804: '<<=' : unsafe use of type 'bool' in operation [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\arm\skyeye_common\vfp\vfpdouble.cpp(533): warning C4146: unary minus operator applied to unsigned type, result still unsigned [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\arm\skyeye_common\vfp\vfpdouble.cpp(671): warning C4146: unary minus operator applied to unsigned type, result still unsigned [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\arm\skyeye_common\vfp\vfpdouble.cpp(819): warning C4146: unary minus operator applied to unsigned type, result still unsigned [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\arm\dyncom\arm_dyncom_interpreter.cpp(656): warning C4200: nonstandard extension used : zero-sized array in struct/union [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\file_sys\archive_savedatacheck.cpp(40): warning C4244: 'argument' : conversion from 'u64' to 'size_t', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj]
+  D:\Programs x32\Microsoft Visual Studio 12.0 2013\VC\include\memory(932): warning C4244: 'argument' : conversion from 'u64' to 'unsigned int', possible loss of data (D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\file_sys\archive_savedatacheck.cpp) [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hle\service\soc_u.cpp(471): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hw\hw.cpp(20): warning C4244: 'argument' : conversion from 'u64' to 'u32', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core/math.h(93): warning C4146: unary minus operator applied to unsigned type, result still unsigned (D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\hw\gpu.cpp) [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj]
+  d:\users\pbsds\desktop\programming\python\small projects\citra autobuilder\workspace\citra\src\core\hw\gpu.h(74): warning C4715: 'GPU::Regs::BytesPerPixel' : not all control paths return a value [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\core\core_timing.cpp(495): warning C4244: 'argument' : conversion from 's64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj]
+
+
+"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\citra.sln" (citra target) (1) ->
+"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra\citra.vcxproj.metaproj" (default target) (2) ->
+"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj.metaproj" (default target) (10) ->
+"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj" (default target) (11) ->
+  d:\users\pbsds\desktop\programming\python\small projects\citra autobuilder\workspace\citra\externals\nihstro\include\nihstro\shader_bytecode.h(674): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning) (D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp) [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core/math.h(93): warning C4146: unary minus operator applied to unsigned type, result still unsigned (D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp) [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core/math.h(93): warning C4146: unary minus operator applied to unsigned type, result still unsigned (D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\rasterizer.cpp) [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\rasterizer.cpp(346): warning C4018: '>=' : signed/unsigned mismatch [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp(484): warning C4244: '=' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp(485): warning C4244: '=' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp(486): warning C4244: '=' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp(488): warning C4244: '+=' : conversion from 's64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp(489): warning C4244: '+=' : conversion from 's64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp(490): warning C4244: '+=' : conversion from 's64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp(497): warning C4244: 'argument' : conversion from 'u64' to 'u8', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp(498): warning C4244: 'argument' : conversion from 'u64' to 'u8', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp(499): warning C4244: 'argument' : conversion from 'u64' to 'u8', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp(501): warning C4244: 'argument' : conversion from 'u64' to 'u8', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp(502): warning C4244: 'argument' : conversion from 'u64' to 'u8', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp(503): warning C4244: 'argument' : conversion from 'u64' to 'u8', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\debug_utils\debug_utils.cpp(508): warning C4244: 'initializing' : conversion from 'u64' to 'unsigned int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\clipper.cpp(96): warning C4305: 'argument' : truncation from 'double' to 'float' [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  d:\users\pbsds\desktop\programming\python\small projects\citra autobuilder\workspace\citra\src\core\hw\gpu.h(74): warning C4715: 'GPU::Regs::BytesPerPixel' : not all control paths return a value [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  d:\users\pbsds\desktop\programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\pica.h(441): warning C4715: 'Pica::Regs::BytesPerDepthPixel' : not all control paths return a value [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  d:\users\pbsds\desktop\programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\rasterizer.cpp(474): warning C4715: '<lambda_66bd2cbb558d25be5c5cf46ea9fac396>::operator()' : not all control paths return a value [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  d:\users\pbsds\desktop\programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\rasterizer.cpp(763): warning C4715: '<lambda_9785ccaa432799224290dc37646d51d1>::operator()' : not all control paths return a value [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  d:\users\pbsds\desktop\programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\rasterizer.cpp(730): warning C4715: '<lambda_0d0cbdd9904c0b0604d4eb778b191f96>::operator()' : not all control paths return a value [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  d:\users\pbsds\desktop\programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\rasterizer.cpp(446): warning C4715: '<lambda_ec4da4bd1a86fa264e9afe0de5e1b1e6>::operator()' : not all control paths return a value [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\nihstro\include\nihstro/shader_bytecode.h(674): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning) (D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp) [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(573): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(574): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(575): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(576): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(577): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(578): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(579): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(580): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(581): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(582): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(583): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(584): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(585): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(586): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(587): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(588): warning C4244: 'argument' : conversion from 'u64' to 'int', possible loss of data [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  d:\users\pbsds\desktop\programming\python\small projects\citra autobuilder\workspace\citra\src\core\hw\gpu.h(74): warning C4715: 'GPU::Regs::BytesPerPixel' : not all control paths return a value [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  d:\users\pbsds\desktop\programming\python\small projects\citra autobuilder\workspace\citra\externals\nihstro\include\nihstro\shader_bytecode.h(89): warning C4715: 'nihstro::SourceRegister::GetIndex' : not all control paths return a value [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+  d:\users\pbsds\desktop\programming\python\small projects\citra autobuilder\workspace\citra\src\video_core\vertex_shader.cpp(449): warning C4715: '<lambda_e34b2f9a68a3f36f2454dae8bbde5361>::operator()' : not all control paths return a value [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj]
+
+    58 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:39.00
+Microsoft (R) Build Engine version 12.0.31101.0
+[Microsoft .NET Framework, version 4.0.30319.34014]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Building the projects in this solution one at a time. To enable parallel build, please add the "/m" switch.
+Build started 3/16/2015 00:53:48.
+Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\citra.sln" on node 1 (citra-qt target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Release|Win32".
+ValidateProjects:
+  The project "ALL_BUILD" is not selected for building in solution configuration "Release|Win32".
+Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\citra.sln" (1) is building "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra_qt\citra-qt.vcxproj.metaproj" (2) on node 1 (default targets).
+Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra_qt\citra-qt.vcxproj.metaproj" (2) is building "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\ZERO_CHECK.vcxproj" (3) on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+FinalizeBuildStatus:
+  Deleting file "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+  Touching "Win32\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+Done Building Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\ZERO_CHECK.vcxproj" (default targets).
+Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra_qt\citra-qt.vcxproj.metaproj" (2) is building "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\common\common.vcxproj.metaproj" (4) on node 1 (default targets).
+Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\common\common.vcxproj.metaproj" (4) is building "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\common\common.vcxproj" (5) on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "common.dir\Release\common.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Lib:
+  All outputs are up-to-date.
+  common.vcxproj -> D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\common\Release\common.lib
+FinalizeBuildStatus:
+  Deleting file "common.dir\Release\common.tlog\unsuccessfulbuild".
+  Touching "common.dir\Release\common.tlog\common.lastbuildstate".
+Done Building Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\common\common.vcxproj" (default targets).
+Done Building Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\common\common.vcxproj.metaproj" (default targets).
+Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra_qt\citra-qt.vcxproj.metaproj" (2) is building "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj.metaproj" (6) on node 1 (default targets).
+Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj.metaproj" (6) is building "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj" (7) on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "core.dir\Release\core.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Lib:
+  All outputs are up-to-date.
+  core.vcxproj -> D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\Release\core.lib
+FinalizeBuildStatus:
+  Deleting file "core.dir\Release\core.tlog\unsuccessfulbuild".
+  Touching "core.dir\Release\core.tlog\core.lastbuildstate".
+Done Building Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj" (default targets).
+Done Building Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\core\core.vcxproj.metaproj" (default targets).
+Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra_qt\citra-qt.vcxproj.metaproj" (2) is building "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\externals\qhexedit\qhexedit.vcxproj.metaproj" (8) on node 1 (default targets).
+Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\externals\qhexedit\qhexedit.vcxproj.metaproj" (8) is building "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\externals\qhexedit\qhexedit.vcxproj" (9) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "qhexedit.dir\Release\".
+  Creating directory "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\externals\qhexedit\Release\".
+  Creating directory "qhexedit.dir\Release\qhexedit.tlog\".
+InitializeBuildStatus:
+  Creating "qhexedit.dir\Release\qhexedit.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+PreBuildEvent:
+  Description: Automatic moc for target qhexedit
+  setlocal
+  cd "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\externals\qhexedit"
+  if %errorlevel% neq 0 goto :cmEnd
+  D:
+  if %errorlevel% neq 0 goto :cmEnd
+  "C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen "D:/Users/pbsds/Desktop/Programming/python/small projects/citra autobuilder/workspace/build/externals/qhexedit/CMakeFiles/qhexedit_automoc.dir/" Release
+  if %errorlevel% neq 0 goto :cmEnd
+  :cmEnd
+  endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+  :cmErrorLevel
+  exit /b %1
+  :cmDone
+  if %errorlevel% neq 0 goto :VCEnd
+  :VCEnd
+  Generating moc_qhexedit.cpp
+  Generating moc_qhexedit_p.cpp
+CustomBuild:
+  Building Custom Rule D:/Users/pbsds/Desktop/Programming/python/small projects/citra autobuilder/workspace/citra/externals/qhexedit/CMakeLists.txt
+  CMake does not need to re-run because D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\externals\qhexedit\CMakeFiles\generate.stamp is up-to-date.
+ClCompile:
+  D:\Programs x32\Microsoft Visual Studio 12.0 2013\VC\bin\CL.exe /c /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\externals\qhexedit" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\qhexedit" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\boost" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\glfw-3.0.4.bin\include" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\inih" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\nihstro\include" /ID:\Qt\5.4\msvc2013_opengl\include /ID:\Qt\5.4\msvc2013_opengl\include\QtWidgets /ID:\Qt\5.4\msvc2013_opengl\include\QtGui /ID:\Qt\5.4\msvc2013_opengl\include\QtCore /I"D:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013" /ID:\Qt\5.4\msvc2013_opengl\include\QtOpenGL /Zi /nologo /W3 /WX- /MP /Ox /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D SINGLETHREADED /D NDEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D QT_NO_DEBUG /D QT_OPENGL_LIB /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"qhexedit.dir\Release\\" /Fd"qhexedit.dir\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\qhexedit\commands.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\qhexedit\qhexedit.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\qhexedit\qhexedit_p.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\qhexedit\xbytearray.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\externals\qhexedit\qhexedit_automoc.cpp"
+  commands.cpp
+  qhexedit.cpp
+  qhexedit_p.cpp
+  xbytearray.cpp
+  qhexedit_automoc.cpp
+Lib:
+  D:\Programs x32\Microsoft Visual Studio 12.0 2013\VC\bin\Lib.exe /OUT:"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\externals\qhexedit\Release\qhexedit.lib" /NOLOGO qhexedit.dir\Release\commands.obj
+  qhexedit.dir\Release\qhexedit.obj
+  qhexedit.dir\Release\qhexedit_p.obj
+  qhexedit.dir\Release\xbytearray.obj
+  qhexedit.dir\Release\qhexedit_automoc.obj
+  qhexedit.vcxproj -> D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\externals\qhexedit\Release\qhexedit.lib
+FinalizeBuildStatus:
+  Deleting file "qhexedit.dir\Release\qhexedit.tlog\unsuccessfulbuild".
+  Touching "qhexedit.dir\Release\qhexedit.tlog\qhexedit.lastbuildstate".
+Done Building Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\externals\qhexedit\qhexedit.vcxproj" (default targets).
+Done Building Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\externals\qhexedit\qhexedit.vcxproj.metaproj" (default targets).
+Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra_qt\citra-qt.vcxproj.metaproj" (2) is building "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj.metaproj" (10) on node 1 (default targets).
+Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj.metaproj" (10) is building "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj" (11) on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "video_core.dir\Release\video_core.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+  All outputs are up-to-date.
+Lib:
+  All outputs are up-to-date.
+  video_core.vcxproj -> D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\Release\video_core.lib
+FinalizeBuildStatus:
+  Deleting file "video_core.dir\Release\video_core.tlog\unsuccessfulbuild".
+  Touching "video_core.dir\Release\video_core.tlog\video_core.lastbuildstate".
+Done Building Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj" (default targets).
+Done Building Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\video_core\video_core.vcxproj.metaproj" (default targets).
+Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra_qt\citra-qt.vcxproj.metaproj" (2) is building "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra_qt\citra-qt.vcxproj" (12) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "citra-qt.dir\Release\".
+  Creating directory "citra-qt.dir\Release\citra-qt.tlog\".
+InitializeBuildStatus:
+  Creating "citra-qt.dir\Release\citra-qt.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+PreBuildEvent:
+  Description: Automatic moc for target citra-qt
+  setlocal
+  cd "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra_qt"
+  if %errorlevel% neq 0 goto :cmEnd
+  D:
+  if %errorlevel% neq 0 goto :cmEnd
+  "C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_autogen "D:/Users/pbsds/Desktop/Programming/python/small projects/citra autobuilder/workspace/build/src/citra_qt/CMakeFiles/citra-qt_automoc.dir/" Release
+  if %errorlevel% neq 0 goto :cmEnd
+  :cmEnd
+  endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+  :cmErrorLevel
+  exit /b %1
+  :cmDone
+  if %errorlevel% neq 0 goto :VCEnd
+  :VCEnd
+  Generating moc_bootmanager.cpp
+  Generating moc_controller_config.cpp
+  D:/Users/pbsds/Desktop/Programming/python/small projects/citra autobuilder/workspace/citra/src/citra_qt/config/controller_config.h(0): Note: No relevant classes found. No output generated.
+  
+  Generating moc_controller_config_util.cpp
+  D:/Users/pbsds/Desktop/Programming/python/small projects/citra autobuilder/workspace/citra/src/citra_qt/config/controller_config_util.h(0): Note: No relevant classes found. No output generated.
+  
+  Generating moc_callstack.cpp
+  Generating moc_disassembler.cpp
+  Generating moc_graphics.cpp
+  Generating moc_graphics_breakpoint_observer.cpp
+  Generating moc_graphics_breakpoints.cpp
+  Generating moc_graphics_breakpoints_p.cpp
+  Generating moc_graphics_cmdlists.cpp
+  Generating moc_graphics_framebuffer.cpp
+  Generating moc_graphics_vertex_shader.cpp
+  Generating moc_profiler.cpp
+  Generating moc_ramview.cpp
+  Generating moc_registers.cpp
+  Generating moc_hotkeys.cpp
+  Generating moc_main.cpp
+  Generating moc_spinbox.cpp
+CustomBuild:
+  Building Custom Rule D:/Users/pbsds/Desktop/Programming/python/small projects/citra autobuilder/workspace/citra/src/citra_qt/CMakeLists.txt
+  CMake does not need to re-run because D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra_qt\CMakeFiles\generate.stamp is up-to-date.
+  Generating ui_controller_config.h
+  Generating ui_callstack.h
+  Generating ui_disassembler.h
+  Generating ui_profiler.h
+  Generating ui_registers.h
+  Generating ui_hotkeys.h
+  Generating ui_main.h
+MakeDirsForCl:
+  Creating directory "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra_qt\Release".
+ClCompile:
+  D:\Programs x32\Microsoft Visual Studio 12.0 2013\VC\bin\CL.exe /c /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra_qt" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra_qt" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\boost" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\glfw-3.0.4.bin\include" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\inih" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\nihstro\include" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\qhexedit" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\." /ID:\Qt\5.4\msvc2013_opengl\include /ID:\Qt\5.4\msvc2013_opengl\include\QtWidgets /ID:\Qt\5.4\msvc2013_opengl\include\QtGui /ID:\Qt\5.4\msvc2013_opengl\include\QtCore /I"D:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013" /ID:\Qt\5.4\msvc2013_opengl\include\QtOpenGL /Zi /nologo /W3 /WX- /MP /Ox /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D SINGLETHREADED /D NDEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D QT_NO_DEBUG /D QT_OPENGL_LIB /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"citra-qt.dir\Release\\" /Fd"citra-qt.dir\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra_qt\config\controller_config.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra_qt\config\controller_config_util.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra_qt\config.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra_qt\debugger\callstack.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra_qt\debugger\disassembler.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra_qt\debugger\graphics.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra_qt\debugger\graphics_breakpoint_observer.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra_qt\debugger\graphics_breakpoints.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra_qt\debugger\graphics_cmdlists.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra_qt\debugger\graphics_framebuffer.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra_qt\debugger\graphics_vertex_shader.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra_qt\debugger\profiler.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra_qt\debugger\ramview.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra_qt\debugger\registers.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra_qt\util\spinbox.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra_qt\bootmanager.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra_qt\hotkeys.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra_qt\main.cpp" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra_qt\citra-qt_automoc.cpp"
+  controller_config.cpp
+  controller_config_util.cpp
+  config.cpp
+  callstack.cpp
+  disassembler.cpp
+  graphics.cpp
+  graphics_breakpoint_observer.cpp
+  graphics_breakpoints.cpp
+  graphics_cmdlists.cpp
+  graphics_framebuffer.cpp
+  graphics_vertex_shader.cpp
+  profiler.cpp
+  ramview.cpp
+  registers.cpp
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core/math.h(93): warning C4146: unary minus operator applied to unsigned type, result still unsigned (D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra_qt\debugger\graphics_framebuffer.cpp) [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra_qt\citra-qt.vcxproj]
+          D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core/color.h(126) : see reference to class template instantiation 'Math::Vec2<u32>' being compiled
+  spinbox.cpp
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra_qt\debugger\profiler.cpp(29): warning C4018: '>=' : signed/unsigned mismatch [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra_qt\citra-qt.vcxproj]
+D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra_qt\debugger\profiler.cpp(101): warning C4018: '<' : signed/unsigned mismatch [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra_qt\citra-qt.vcxproj]
+d:\users\pbsds\desktop\programming\python\small projects\citra autobuilder\workspace\citra\src\citra_qt\debugger\graphics_framebuffer.cpp(297): warning C4715: 'GraphicsFramebufferWidget::BytesPerPixel' : not all control paths return a value [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra_qt\citra-qt.vcxproj]
+  bootmanager.cpp
+  hotkeys.cpp
+  main.cpp
+  citra-qt_automoc.cpp
+d:\users\pbsds\desktop\programming\python\small projects\citra autobuilder\workspace\citra\externals\nihstro\include\nihstro\shader_bytecode.h(89): warning C4715: 'nihstro::SourceRegister::GetIndex' : not all control paths return a value [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra_qt\citra-qt.vcxproj]
+ResourceCompile:
+  C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D SINGLETHREADED /D NDEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D QT_NO_DEBUG /D QT_OPENGL_LIB /D "CMAKE_INTDIR=\\\"Release\\\"" /l"0x0409" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra_qt" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra_qt" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\boost" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\glfw-3.0.4.bin\include" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\inih" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\nihstro\include" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\externals\qhexedit" /I"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\." /ID:\Qt\5.4\msvc2013_opengl\include /ID:\Qt\5.4\msvc2013_opengl\include\QtWidgets /ID:\Qt\5.4\msvc2013_opengl\include\QtGui /ID:\Qt\5.4\msvc2013_opengl\include\QtCore /I"D:\Qt\5.4\msvc2013_opengl\mkspecs\win32-msvc2013" /ID:\Qt\5.4\msvc2013_opengl\include\QtOpenGL /nologo /fo"citra-qt.dir\Release\citra-qt.res" "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra_qt\citra-qt.rc" 
+Link:
+  D:\Programs x32\Microsoft Visual Studio 12.0 2013\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\bin\Release\citra-qt.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:/Users/pbsds/Desktop/Programming/python/small projects/citra autobuilder/workspace/citra/externals/glfw-3.0.4.bin/lib-msvc_v120-Win32" /LIBPATH:"D:/Users/pbsds/Desktop/Programming/python/small projects/citra autobuilder/workspace/citra/externals/glfw-3.0.4.bin/lib-msvc_v120-Win32/Release" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\core\Release\core.lib ..\common\Release\common.lib ..\video_core\Release\video_core.lib ..\..\externals\qhexedit\Release\qhexedit.lib opengl32.lib D:\Qt\5.4\msvc2013_opengl\lib\Qt5OpenGL.lib winmm.lib ws2_32.lib D:\Qt\5.4\msvc2013_opengl\lib\Qt5Widgets.lib D:\Qt\5.4\msvc2013_opengl\lib\Qt5Gui.lib D:\Qt\5.4\msvc2013_opengl\lib\Qt5Core.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:/Users/pbsds/Desktop/Programming/python/small projects/citra autobuilder/workspace/build/bin/Release/citra-qt.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Users/pbsds/Desktop/Programming/python/small projects/citra autobuilder/workspace/build/src/citra_qt/Release/citra-qt.lib" /MACHINE:X86 /SAFESEH  /machine:X86 "citra-qt.dir\Release\citra-qt.res"
+  "citra-qt.dir\Release\controller_config.obj"
+  "citra-qt.dir\Release\controller_config_util.obj"
+  "citra-qt.dir\Release\config.obj"
+  "citra-qt.dir\Release\callstack.obj"
+  "citra-qt.dir\Release\disassembler.obj"
+  "citra-qt.dir\Release\graphics.obj"
+  "citra-qt.dir\Release\graphics_breakpoint_observer.obj"
+  "citra-qt.dir\Release\graphics_breakpoints.obj"
+  "citra-qt.dir\Release\graphics_cmdlists.obj"
+  "citra-qt.dir\Release\graphics_framebuffer.obj"
+  "citra-qt.dir\Release\graphics_vertex_shader.obj"
+  "citra-qt.dir\Release\profiler.obj"
+  "citra-qt.dir\Release\ramview.obj"
+  "citra-qt.dir\Release\registers.obj"
+  "citra-qt.dir\Release\spinbox.obj"
+  "citra-qt.dir\Release\bootmanager.obj"
+  "citra-qt.dir\Release\hotkeys.obj"
+  "citra-qt.dir\Release\main.obj"
+  "citra-qt.dir\Release\citra-qt_automoc.obj"
+  citra-qt.vcxproj -> D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\bin\Release\citra-qt.exe
+FinalizeBuildStatus:
+  Deleting file "citra-qt.dir\Release\citra-qt.tlog\unsuccessfulbuild".
+  Touching "citra-qt.dir\Release\citra-qt.tlog\citra-qt.lastbuildstate".
+Done Building Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra_qt\citra-qt.vcxproj" (default targets).
+Done Building Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra_qt\citra-qt.vcxproj.metaproj" (default targets).
+Done Building Project "D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\citra.sln" (citra-qt target(s)).
+
+Build succeeded.
+
+"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\citra.sln" (citra-qt target) (1) ->
+"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra_qt\citra-qt.vcxproj.metaproj" (default target) (2) ->
+"D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra_qt\citra-qt.vcxproj" (default target) (12) ->
+(ClCompile target) -> 
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\video_core/math.h(93): warning C4146: unary minus operator applied to unsigned type, result still unsigned (D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra_qt\debugger\graphics_framebuffer.cpp) [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra_qt\citra-qt.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra_qt\debugger\profiler.cpp(29): warning C4018: '>=' : signed/unsigned mismatch [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra_qt\citra-qt.vcxproj]
+  D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\citra\src\citra_qt\debugger\profiler.cpp(101): warning C4018: '<' : signed/unsigned mismatch [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra_qt\citra-qt.vcxproj]
+  d:\users\pbsds\desktop\programming\python\small projects\citra autobuilder\workspace\citra\src\citra_qt\debugger\graphics_framebuffer.cpp(297): warning C4715: 'GraphicsFramebufferWidget::BytesPerPixel' : not all control paths return a value [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra_qt\citra-qt.vcxproj]
+  d:\users\pbsds\desktop\programming\python\small projects\citra autobuilder\workspace\citra\externals\nihstro\include\nihstro\shader_bytecode.h(89): warning C4715: 'nihstro::SourceRegister::GetIndex' : not all control paths return a value [D:\Users\pbsds\Desktop\Programming\python\small projects\citra autobuilder\workspace\build\src\citra_qt\citra-qt.vcxproj]
+
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:17.05
+
+Cloning citra repository...
+
+Generating CMake...
+
+Compiling Citra...
+
+Compiling Citra Qt...
+
+Adding Citra Qt DLLs...
